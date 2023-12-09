@@ -1,0 +1,49 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head>
+
+
+<body>
+    <br>
+    <h1 class="cabecera">PERSONAL</h1>
+    <form class="abcProducts" action="/" method="post">
+        <label for="matricula">Matricula: </label>
+        <input type="text" placeholder="Matricula" required id="matricula" >
+        <label for="nombre">Nombre: </label>
+        <input type="text" placeholder="Nombre"  required id="nombre">
+        <label for="telefono">Telefono: </label>
+        <input type="tel" step="2" placeholder="Numero de telefono" required id="telefono" >
+        <label for="diasDescanso">Dias de descanso: </label>
+        <input type="text" placeholder="Dias de descanso"  required id="diasDescanso">
+        <label for="category">Categoria: </label>
+        <select name="category" id="category">
+            <option value="cocinero1">Cocinero Tecnico 1</option>
+            <option value="cocinero2">Cocinero Tecnico 2</option>
+            <option value="manejador">Manejador de alimentos 80</option>
+            <option value="Nutricionista">Nutricionista dietista 80</option>
+            <option value="Auxiliar limpieza">Auxiliar de limpieza e higiene</option>
+            <option value="Auxiliar oficina">Auxiliar universal de oficina 80</option>
+            <option value="Auxiliar almacen">Auxiliar de almacen</option>
+           
+          </select>
+        <label for="tipe">Tipo de empleado: </label>
+        <select name="tipe" id="tipe">
+            <option value="base">Base</option>
+            <option value="suplente">Suplente</option>
+
+        </select>
+        <div class="botones">
+        <button>AGREGAR</button>
+        <button>ELIMINAR</button>
+        <button>ACTUALIZAR</button>
+        </div>
+        
+    </form>
+</body>
+
+
+
+</html>

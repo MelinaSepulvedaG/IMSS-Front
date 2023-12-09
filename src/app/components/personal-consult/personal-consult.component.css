@@ -1,0 +1,47 @@
+table {
+    border-radius: 10px;
+    background-color: white;
+  }
+  .filter-section1 {
+
+    height: max-content ;
+    background-color: white;
+  }
+  .filter-section2{
+    height: max-content;
+    background-color: white;
+  }
+  .filter {
+    margin-bottom:5px;  
+  }
+  .filter input {
+    display:none;
+  }
+  .filter label {
+    display:block;
+    height:30px;
+    line-height:30px;
+    font-weight:bold;
+    text-transform:uppercase;
+  }
+  .filter label:before {
+    content:"+";
+    display:inline-block;
+    height:30px;
+    width:30px;
+   background-color:  rgb(255, 163, 208);
+    color:White;
+    text-align:center;
+    margin-right:10px;
+  }
+  .filter div {
+    display:none;
+    padding-top:5px;
+  }
+  .filter input:checked ~ label:before {
+    content:"-";
+    background:#3a4;
+  }
+  .filter input:checked ~ div {
+    display:block;
+  }

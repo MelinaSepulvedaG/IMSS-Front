@@ -1,0 +1,75 @@
+
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <script src="https://kit.fontawesome.com/e37924331b.js" crossorigin="anonymous"></script>
+    </head>
+    
+<body>
+     <div id="header">
+            <ul class="nav" style="display: flex;">
+                            <li><a>PRODUCTOS</a>
+                                <ul>
+                                    <li><a (click)="btn_Productos()">CAPTURAR</a></li>
+                                    <li><a (click)="btnProductConsult()">CONSULTAR</a></li>
+                                    <li><a (click)="btnReporte()">REPORTES</a></li>
+                                </ul>
+                            </li>
+                        <li><a>PERSONAL</a>
+                            <ul>
+                                
+                                <li><a (click)="btnPersonal()">CAPTURAR</a></li>
+                                <li><a (click)="btnPersonalConsult()">CONSULTAR</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="cajabuscar">
+                                <input type="text" id="s" value="" placeholder="Buscar"  />
+                                <button class="boton" type="button"> 
+                                    <img src="./assets/search-50.png" >
+                                </button>
+                            </div>
+                        </li>
+                        <li><a >VACACIONES</a>
+                            <ul>
+                                <li><a (click)="btnVacations()">CALENDARIO</a></li>
+                                <li><a (click)="btnRol()">ROL VACACIONAL</a></li>
+                            </ul>
+                        </li> 
+                        <li><a>DIETETICA</a>
+                            <ul>
+                                <li><a (click)="btnDietas()">CAPTURAR</a></li>
+                                <li><a (click)="btnDietasConsult()" >CONSULTAR</a></li>
+                            </ul>
+                        </li>
+            </ul>
+        </div>
+    <div>
+        <app-productos *ngIf="selector==1" ></app-productos>
+        <app-personal *ngIf="selector==2"></app-personal>
+        <app-vacaciones *ngIf="selector==3"></app-vacaciones>
+        <app-dietas *ngIf="selector==4"></app-dietas>
+        <app-product-consult *ngIf="selector==5"></app-product-consult>
+        <app-personal-consult *ngIf="selector==6"></app-personal-consult>
+        <app-dieta-consult *ngIf="selector==7"></app-dieta-consult>
+        <app-reports *ngIf="selector==8"></app-reports>
+        <app-rol-vacacional *ngIf="selector==9"></app-rol-vacacional>
+    </div>
+</body>
+
+</html>
+
+
+
+    
+
+
+        
+       
+
+  
+
+

@@ -1,0 +1,127 @@
+
+* {
+    margin:0px;
+    padding:0px;
+}
+
+#header {
+    font:menu;
+    font-style:normal;
+    font-weight: 600;
+    font-size: medium;
+    position: relative;
+    background-color: hotpink; 
+}
+
+ul, ol {
+    list-style:none;
+    
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color: hotpink;
+    color:white;
+    text-decoration:none;
+    padding:10px 50px;
+    display:block;
+    cursor: pointer;
+}
+
+.nav li a:hover{
+    background-color: rgb(255, 163, 208);
+}
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:100px;
+    cursor: pointer;
+}
+
+.nav li:hover > ul {
+    display:block;
+    background-color:rgba(rgba(187, 160, 175, 0.904)8);
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+.cuerpo .p1{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    text-align: center;
+    border: 2px solid;
+    color: hotpink;
+    width: 600px;
+    height: 200px;
+    margin-left: 300px;
+    margin-right: 400px;
+    margin-top: 200px;
+}
+
+.cajabuscar {
+    position: relative;
+    height: 42px;
+    max-width: 900px;
+    width: 100%;
+    background: #fff;
+    background-color: hotpink;
+}
+
+
+.cajabuscar img,
+.cajabuscar .boton {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+}
+
+.cajabuscar .boton {
+    width: 42px;
+    height: 42px;
+    right: -1px;
+    border: none;
+    padding: 12px 30px;
+    border-bottom-right-radius:10px;
+    border-top-right-radius: 10px;
+    background-color:  rgb(255, 163, 208);
+    cursor: pointer;
+}
+
+.boton img {
+    font-size: 20px;
+    top: 20px;
+    position: absolute;
+    right: 5px;
+    padding: 9px;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    filter: contrast(0%);
+    filter: brightness(200%);
+}
+
+
+#s {
+    text-align: left;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    float: left;
+    padding: 0 100px;
+    text-indent: 10px;
+    color: #555555;
+    border: 1px solid  rgb(255, 163, 208); 
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 42px;
+}
+

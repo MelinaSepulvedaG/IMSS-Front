@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    font: menu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: medium;
+    
+}
+
+.cabecera{
+    color: hotpink;
+    text-align: center;
+}
+.abcProducts{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(255, 189, 222, 0.39);
+    border-radius: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    height: auto;
+    margin-top: 100px;
+    padding: 30px;
+}
+
+button{
+    background-color: hotpink;
+    width: 100px;
+    height: 30px;
+    border: white;
+    margin-top: 30PX;
+    margin-right: 20px;
+    
+
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font: menu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: medium;
+ 
+}
